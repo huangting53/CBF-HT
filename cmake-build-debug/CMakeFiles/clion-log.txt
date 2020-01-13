@@ -1,0 +1,39 @@
+"D:\Software\Clion\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\huangting\研究生资料\NDN转发层名字查找算法研究\CBF-HT\CBF-HT
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/Software/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Software/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe -- broken
+CMake Error at D:/Software/Clion/CLion 2018.3.2/bin/cmake/win/share/cmake-3.13/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "D:/Software/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/huangting/鐮旂┒鐢熻祫鏂�/NDN杞彂灞傚悕瀛楁煡鎵剧畻娉曠爺绌�/CBF-HT/CBF-HT/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"D:/Software/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe" "cmTC_89882/fast"
+    D:/Software/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_89882.dir\build.make CMakeFiles/cmTC_89882.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/huangting/鐮旂┒鐢熻祫鏂�/NDN杞彂灞傚悕瀛楁煡鎵剧畻娉曠爺绌�/CBF-HT/CBF-HT/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_89882.dir/testCCompiler.c.obj
+    D:\Software\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_89882.dir\testCCompiler.c.obj   -c D:\huangting\閻梻鈹掗悽鐔荤カ閺傛┙NDN鏉烆剙褰傜仦鍌氭倳鐎涙鐓￠幍鍓х暬濞夋洜鐖虹粚绂盋BF-HT\CBF-HT\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: D:\huangting\閻梻鈹掗悽鐔荤カ閺傛┙NDN鏉烆剙褰傜仦鍌氭倳鐎涙鐓￠幍鍓х暬濞夋洜鐖虹粚绂盋BF-HT\CBF-HT\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_89882.dir\build.make:65: CMakeFiles/cmTC_89882.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/huangting/鐮旂┒鐢熻祫鏂�/NDN杞彂灞傚悕瀛楁煡鎵剧畻娉曠爺绌�/CBF-HT/CBF-HT/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_89882/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/huangting/鐮旂┒鐢熻祫鏂�/NDN杞彂灞傚悕瀛楁煡鎵剧畻娉曠爺绌�/CBF-HT/CBF-HT/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/huangting/鐮旂┒鐢熻祫鏂�/NDN杞彂灞傚悕瀛楁煡鎵剧畻娉曠爺绌�/CBF-HT/CBF-HT/cmake-build-debug/CMakeFiles/CMakeError.log".
