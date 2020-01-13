@@ -1,9 +1,9 @@
 #include <iostream>
+#include <sys/time.h>
+#include <unordered_map>
 #include "BinarySearch.h"
 #include "CBF-HT.h"
 #include "PrefixGenerator.h"
-#include <sys/time.h>
-#include <unordered_map>
 using namespace std;
 
 #define MAX 1e6   //整数范围 1 ～ MAX
